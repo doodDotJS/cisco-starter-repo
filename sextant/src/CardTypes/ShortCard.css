@@ -1,0 +1,22 @@
+.shortCard-container {
+  --border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.shortCard-container .key {
+  flex: 1;
+  color: #fff;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.shortCard-container .value {
+  padding-right: 1rem;
+}
