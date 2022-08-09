@@ -20,8 +20,8 @@ export default function ShortCard({ title, value, styling = defaultStyling }) {
       >
         <h1 style={{ color: styling.titleTextColor }}>{title}</h1>
       </div>
-      <div className="value">
-        <label style={{ color: styling.valueTextColor }}>{value}</label>
+      <div className="value" style={{ color: styling.valueTextColor }}>
+        {value}
       </div>
     </div>
   );
