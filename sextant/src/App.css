@@ -9,6 +9,9 @@
 
 main {
   padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-list {
@@ -17,4 +20,5 @@ main {
   justify-content: center;
   flex-direction: column;
   gap: 0.5rem;
+  max-width: 1000px;
 }
